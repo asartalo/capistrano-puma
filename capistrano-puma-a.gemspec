@@ -19,6 +19,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'capistrano', '~> 3.5'
-  spec.add_dependency 'capistrano-bundler'
+  spec.add_dependency 'capistrano-bundler', '~> 1.1'
   spec.add_dependency 'puma' , '~> 3.4'
 end
