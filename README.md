@@ -1,5 +1,7 @@
-[![Gem Version](https://badge.fury.io/rb/capistrano3-puma.svg)](http://badge.fury.io/rb/capistrano3-puma)
 # Capistrano::Puma
+
+A clone of [https://github.com/seuros/capistrano-puma]. If you don't know what
+this does, please use that version instead.
 
 ## Installation
 
@@ -32,7 +34,7 @@ To list available tasks use `cap -T`
 
 To upload puma config use:
 ```ruby
-cap puma:config 
+cap puma:config
 ```
 By default the file located in  `shared/puma.config`
 
